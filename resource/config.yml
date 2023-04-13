@@ -1,0 +1,23 @@
+#Desenvolvido por Sr_Balbucio - balbBungeeTab v1.3
+#Mais plugins em: https://plugins.balbucio.xyz
+#More plugins in: https://plugins.balbucio.xyz
+
+nopermissionmessage: true #Enviar uma mensagem quando player não tiver permissão
+atualizartab: 1 #Atualizar o tab de quantos em quantos SEGUNDOS
+
+#Atualizar o plugin automaticamente sempre que possível
+autoupdate: true
+
+#Envia um aviso no console e para todos com permissão sempre que um anúncio for postado
+alertar: true
+
+#Ativar o sistema de anúncios via Tab?
+anuncios: true
+
+#Em quais servidores o tab deve funcionar?
+whitelist: true #Use para inverter entre blacklist e whitelist
+
+serverlist:
+ - "Login-1"
+ - "Login-2"
+ - "Login-3"

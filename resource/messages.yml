@@ -1,0 +1,23 @@
+#Você pode usar &
+
+#PREFIXOS PARA USAR NO TAB:
+# {anuncio} - Mostra a mensagem de anúncio (configurável) 
+# {anuncio_owner} - Mostra quem fez o anúncio
+# {server} - Servidor que o player está
+# {online} - Número de players online
+# {date} - Mostra a data (17-04-2022)
+# {hour} - Mostra a hora (15:58:01)
+
+prefix: "§b[BTAB]"
+nopermission: "§cSem Permissão."
+adaviso: "Um novo anúncio foi postado por {player}!"
+anunciado: "{prefix} §aAnunciado com sucesso!"
+anuncioremovido: "{prefix} §cAnúncio removido com sucesso!"
+notfound: "§cOps... Esse comando não foi encontrado!\n§cUse /btab help para saber todos comandos."
+mensagempequena: "{prefix} §cPor favor, adicione uma mensagem de anúncio.\n§cUse /btab anunciar <mensagem>"
+tab:
+ anuncio: "\n\n§4§lANÚNCIO: {anuncio}" #Mensagem {anuncio} do Tab
+ semanuncio: "{remover}" #Mensagem se não houver anúncio ({remover} remove do tab)
+ semowner: "CONSOLE" #Se não houver anúncios, quem será o {anuncio_owner} 
+ tabCima: "§a§lBALBUCIO BUNGEE TAB\n§7Divirta-se jogando minigames incríveis!\n§7Você está jogando: {server}\n"
+ tabBaixo: "§aSITE: §7balbucio.xyz\n§aLOJA: §7store.balbucio.xyz\n§aDiscord: §7dc.balbucio.xyz{anuncio}"

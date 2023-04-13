@@ -1,0 +1,5 @@
+name: balbBungeeTab
+author: Balbucio
+version: 1.3
+main: me.balbucio.tab.Main
+description: Adicione um tab ao seu servidor Bungeecord
